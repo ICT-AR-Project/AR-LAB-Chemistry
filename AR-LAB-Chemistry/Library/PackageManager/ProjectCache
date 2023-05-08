@@ -5,23 +5,106 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182740060000000
-    m_Hash: 2789512069
+      ticks: 638191411210000000
+    m_Hash: 3795944501
   m_LockFileStatus:
     m_FilePath: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182740150000000
-    m_Hash: 1244118888
+      ticks: 638191411410000000
+    m_Hash: 2562746943
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Packages/com.ptc.vuforia.engine-10.15.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Packages/com.ptc.vuforia.engine-10.15.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638180287240000000
+    m_Hash: 1783302083
 m_ProjectPath: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Packages
 m_EditorVersion: 2021.3.4f1 (cb45f9cae8b7)
 m_ResolvedPackages:
+- packageId: com.ptc.vuforia.engine@file:/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Packages/com.ptc.vuforia.engine-10.15.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 10.15.3
+  source: 6
+  resolvedPath: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25
+  assetPath: Packages/com.ptc.vuforia.engine
+  name: com.ptc.vuforia.engine
+  displayName: Vuforia Engine AR
+  author:
+    name: PTC Inc.
+    email: 
+    url: https://developer.vuforia.com/
+  category: 
+  type: 
+  description: Vuforia Engine is the most widely used platform for AR development,
+    with support for leading phones, tablets, and eyewear. Developers can easily
+    add advanced computer vision functionality to Android, iOS, and UWP apps, to
+    create AR experiences that realistically interact with objects and the environment.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 8.0.101
+    - 8.1.9
+    - 8.1.12
+    - 8.3.9
+    - 8.5.8
+    - 8.5.9
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - vuforia
+  - engine
+  - ar
+  - xr
+  - augmented
+  - reality
+  - sdk
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.15.17
   testable: 0
   isDirectDependency: 1
@@ -107,6 +190,7 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -128,6 +212,7 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -234,13 +319,17 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
+    - 3.0.21
     compatible:
     - 3.0.14
     - 3.0.15
     - 3.0.16
     - 3.0.17
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    - 3.0.21
+    verified: 3.0.21
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -310,11 +399,13 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.15
     - 2.0.16
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -908,6 +999,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -920,6 +1012,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -930,7 +1023,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -999,6 +1092,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -3614,17 +3708,33 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 4
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
     - 4.9.1
+    - 4.9.2
     compatible:
     - 4.9.1
-    verified: 4.9.1
+    - 4.9.2
+    verified: 4.9.2
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3637,9 +3747,9 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637695653650000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3693,9 +3803,13 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     - 3.1.0
+    - 3.2.0
+    - 3.2.1
     compatible:
     - 3.0.2
     - 3.1.0
+    - 3.2.0
+    - 3.2.1
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
