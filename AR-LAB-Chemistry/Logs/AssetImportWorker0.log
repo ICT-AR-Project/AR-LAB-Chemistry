@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56205
+63874
 Successfully changed project path to: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry
 /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,13 +54,16 @@ Successfully changed project path to: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemist
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 178.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 181.74 ms, found 6 plugins.
+Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
+  Expected in: /usr/lib/libc++.1.dylib
+Preloading 4 native plugins for Editor in 19.49 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+LF24T35 preferred device: AMD Radeon Pro 5300M (high power)
 Metal devices available: 2
 0: AMD Radeon Pro 5300M (high power)
 1: Intel(R) UHD Graphics 630 (low power)
@@ -70,84 +73,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56057
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56250
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002897 seconds.
+Registered in 0.002483 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 156.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 172.68 ms, found 6 plugins.
+Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
+  Expected in: /usr/lib/libc++.1.dylib
+Preloading 4 native plugins for Editor in 12.83 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.260 seconds
+- Completed reload, in  1.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1260ms)
+	ReloadAssembly (1274ms)
 		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (963ms)
+		EndReloadAssembly (966ms)
 			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (582ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (584ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (141ms)
+				InitializePlatformSupportModulesInManaged (160ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (156ms)
+				RefreshPlugins (186ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006178 seconds.
+Registered in 0.015994 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 151.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 175.48 ms, found 6 plugins.
+Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
+  Expected in: /usr/lib/libc++.1.dylib
+Preloading 4 native plugins for Editor in 11.67 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.288 seconds
+- Completed reload, in  2.585 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2290ms)
-		BeginReloadAssembly (297ms)
+	ReloadAssembly (2586ms)
+		BeginReloadAssembly (303ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (156ms)
-		EndReloadAssembly (1786ms)
-			LoadAssemblies (158ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (543ms)
-			ReleaseScriptCaches (8ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (890ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2077ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1054ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (50ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (152ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (141ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -156,13 +165,16 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5019 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (1.1 MB). Loaded Objects now: 5460.
-Memory consumption went from 319.6 MB to 318.5 MB.
-Total: 6.435316 ms (FindLiveObjects: 0.506526 ms CreateObjectMapping: 0.531618 ms MarkObjects: 4.706486 ms  DeleteObjects: 0.689327 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 6 plugins.
+Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
+  Expected in: /usr/lib/libc++.1.dylib
+Preloading 4 native plugins for Editor in 13.68 ms.
+Unloading 5065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.2 MB). Loaded Objects now: 5801.
+Memory consumption went from 328.0 MB to 326.9 MB.
+Total: 6.875542 ms (FindLiveObjects: 0.521497 ms CreateObjectMapping: 0.541394 ms MarkObjects: 4.862316 ms  DeleteObjects: 0.949022 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,147 +188,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 437907.970743 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eecc253734895facb66926253515a97') in 2.396268 seconds 
+  Time since last request: 483120.269897 seconds.
+  path: Assets/molcules.3ds
+  artifactKey: Guid(e29eb7da80f1f49d791d331a9a67aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/molcules.3ds using Guid(e29eb7da80f1f49d791d331a9a67aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a34cf669851f879d2dd3b5d5803f289') in 2.577587 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017257 seconds.
+Registered in 0.008125 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.117 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2118ms)
-		BeginReloadAssembly (298ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (106ms)
-		EndReloadAssembly (1618ms)
-			LoadAssemblies (268ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (529ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (701ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 87 unused Assets / (1.1 MB). Loaded Objects now: 5417.
-Memory consumption went from 316.3 MB to 315.2 MB.
-Total: 6.394605 ms (FindLiveObjects: 0.510141 ms CreateObjectMapping: 0.448399 ms MarkObjects: 4.381240 ms  DeleteObjects: 1.053727 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.1 MB). Loaded Objects now: 5417.
-Memory consumption went from 217.5 MB to 216.4 MB.
-Total: 5.431884 ms (FindLiveObjects: 0.464365 ms CreateObjectMapping: 0.442415 ms MarkObjects: 3.918073 ms  DeleteObjects: 0.606133 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016320 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.98 ms, found 6 plugins.
 Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
   Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
   Expected in: /usr/lib/libc++.1.dylib
-Preloading 4 native plugins for Editor in 21.20 ms.
+Preloading 4 native plugins for Editor in 13.40 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
+- Completed reload, in  2.419 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1995ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (2420ms)
+		BeginReloadAssembly (287ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (1606ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (1906ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (573ms)
+			SetupTypeCache (664ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (764ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (905ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (76ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (23ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (137ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (174ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatNoGeom' not found
-WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.35 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 4.36 ms, found 6 plugins.
 Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
   Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
   Expected in: /usr/lib/libc++.1.dylib
-Preloading 4 native plugins for Editor in 10.72 ms.
-Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (4.8 MB). Loaded Objects now: 5750.
-Memory consumption went from 327.9 MB to 323.1 MB.
-Total: 7.959049 ms (FindLiveObjects: 0.547435 ms CreateObjectMapping: 0.430038 ms MarkObjects: 4.128359 ms  DeleteObjects: 2.851723 ms)
+Preloading 4 native plugins for Editor in 10.83 ms.
+Unloading 4944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (1.2 MB). Loaded Objects now: 5846.
+Memory consumption went from 330.1 MB to 328.9 MB.
+Total: 6.336175 ms (FindLiveObjects: 0.540418 ms CreateObjectMapping: 0.601972 ms MarkObjects: 4.487230 ms  DeleteObjects: 0.705274 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -330,107 +258,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 236.622638 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595b59af74dba9086e8faf14badef471') in 0.032751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.527604 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6a07c91ba7f1356f7daba676603408') in 0.009087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.716619 seconds.
-  path: Assets/Resources/spoid.jpeg
-  artifactKey: Guid(5347e73a4d32d4eb5a015398274b4cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/spoid.jpeg using Guid(5347e73a4d32d4eb5a015398274b4cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
-UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
-
-[./Runtime/Graphics/RenderTexture.cpp line 1064]
-
-Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
-UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
-
-[./Runtime/Graphics/RenderTexture.cpp line 1064]
-
- -> (artifact id: 'c02618fc57e1193bbadad01181897015') in 1.366104 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007236 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
-Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
-  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
-  Expected in: /usr/lib/libc++.1.dylib
-Preloading 4 native plugins for Editor in 10.96 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.029 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2030ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (106ms)
-		EndReloadAssembly (1632ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (565ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (777ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (12ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (422ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.57 ms, found 6 plugins.
-Plugins: Couldn't open /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, error: dlopen(/Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib, 2): Symbol not found: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
-  Referenced from: /Users/jslee/Desktop/AR-LAB/AR-LAB-Chemistry/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib (which was built for Mac OS X 12.3)
-  Expected in: /usr/lib/libc++.1.dylib
-Preloading 4 native plugins for Editor in 12.44 ms.
-Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (4.9 MB). Loaded Objects now: 5755.
-Memory consumption went from 331.5 MB to 326.6 MB.
-Total: 8.939074 ms (FindLiveObjects: 0.514400 ms CreateObjectMapping: 0.500836 ms MarkObjects: 4.456458 ms  DeleteObjects: 3.465707 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2048.026076 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd884c7adcaf975226f3019580fe14ca') in 0.172084 seconds 
+  Time since last request: 791.895677 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd38d07635f14bd7acf9bfb4e5eddc4') in 0.011343 seconds 
